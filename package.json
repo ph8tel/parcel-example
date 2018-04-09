@@ -1,0 +1,31 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js --out-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supertopoz/parcel-example"
+  },
+  "author": "Jason Allshorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supertopoz/parcel-example/issues"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0",
+    "react-router-dom": "^4.2.2",
+    "styled-components": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.6.2"
+  }
+}
